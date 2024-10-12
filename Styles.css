@@ -11,11 +11,10 @@ body {
 .login-container,
 .menu-container,
 .data-entry-container {
-    background-image: url('Proyectos_Web/Imagenes/Imagen login');
+    background-image: url('Proyectos_Web/Imagenes/Imagen login.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background: #444;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
