@@ -11,7 +11,11 @@ body {
 .login-container,
 .menu-container,
 .data-entry-container {
-    background: #444;
+    background-image: url('Proyectos_Web/Imagenes');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    s background: #444;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
