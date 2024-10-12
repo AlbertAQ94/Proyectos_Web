@@ -3,7 +3,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
     // Aquí puedes agregar la lógica para validar el usuario y la contraseña
-    alert(`Usuario: ${username}\nContraseña: ${password}`);
+    alert(`Usuario: ${Alberto}\nContraseña: ${Albert1994}`);
     // Ocultar el formulario de inicio de sesion y mostrar el menu
     document.querySelector('.login-container').style.display = 'none';
     document.querySelector('.menu-container').style.display = 'block';
