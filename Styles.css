@@ -1,18 +1,31 @@
 body {
+    background-image: url('imagenes/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    /* estilos */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     margin: 0;
+    padding: 0%;
     background: -o-linear-gradient(135deg, #333, #777);
     font-family: Arial, sans-serif;
 }
 
 .login-container {
-    background-image: url('imagenes/fondo.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    /* Estilos para el contenedor del formulario de inicio de sesión */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 5px;
+    /* Ajusta el posicionamiento según sea necesario */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
