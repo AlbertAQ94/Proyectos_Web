@@ -16,10 +16,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(192, 83, 83, 0.5);
     text-align: center;
-    color: #fff;
 
 }
 
