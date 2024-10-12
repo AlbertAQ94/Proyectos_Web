@@ -31,8 +31,8 @@ body::before {
     background-color: rgba(255, 255, 255, 0.8);
     /* Fondo semi-transparente */
     padding: 20px;
-    border-radius: 5px;
-    /* Ajusta el posicionamiento según sea necesario */
+    border-radius: 10px;
+    /* Ajuste del posicionamiento según sea necesario */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,7 +43,11 @@ body::before {
 .menu-container,
 .data-entry-container {
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
+    color: #fff;
+
 }
 
 h2,
