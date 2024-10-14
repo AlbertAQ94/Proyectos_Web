@@ -10,7 +10,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
 });
 
 
-document.getElementById("ingresoDatos.html").addEventListener('click',
+document.getElementById("ingresoDatos").addEventListener('click',
     function (event) {
         event.preventDefault();
         //Ocultar el menu y mostrar el formulario de entrada de datos
